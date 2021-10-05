@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 const Username = () => {
   return (
     <div>
+      <h1>Username</h1>
       <ul>
         <li>
-          <Link>Profile</Link>
-        </li>
-        <li>
-          <Link>Username</Link>
+          <Link to="/repositories">Repositories</Link>
         </li>
       </ul>
     </div>

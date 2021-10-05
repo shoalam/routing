@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 const Issues = () => {
   return (
     <div>
-      <ul>
+      <h1>Issues</h1>
+      {/* <ul>
         <li>
-          <Link>Issues</Link>
+          <Link to="">Issues</Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

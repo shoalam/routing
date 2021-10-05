@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 const Marketplace = () => {
   return (
     <div>
+      <h1>Marketplace</h1>
       <ul>
         <li>
-          <Link>Marketplace</Link>
-        </li>
-        <li>
-          <Link>Cli-arguments</Link>
+          <Link to="/cliarguments">Cli-arguments</Link>
         </li>
       </ul>
     </div>

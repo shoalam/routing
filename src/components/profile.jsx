@@ -4,15 +4,10 @@ import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <div>
+      <h1>Profile</h1>
       <ul>
         <li>
-          <Link>Profile</Link>
-        </li>
-        <li>
-          <Link>Username</Link>
-        </li>
-        <li>
-          <Link>Repositories</Link>
+          <Link to="/username">Username</Link>
         </li>
       </ul>
     </div>
